@@ -1,5 +1,5 @@
 <p>
-  <img src="https://raw.githubusercontent.com/elifarslancelik/elifarslancelik/main/gitspan.png" width="200px" alt="Full Stack AI Developer">
+  <img src="https://raw.githubusercontent.com/elifarslancelik/elifarslancelik/main/gitspan.png" width="250px" alt="Full Stack AI Developer">
 </p>
 
 <p><strong>Languages</strong></p>
