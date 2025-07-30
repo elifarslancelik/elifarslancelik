@@ -1,6 +1,4 @@
-<h1 style="display: inline-block; padding: 10px 20px; border: 3px solid; border-image: linear-gradient(to right, #ff7e5f, #feb47b, #86a8e7, #91eae4) 1; border-radius: 12px; background-color: #333333; color: #182848; font-weight: bold; text-align: center;">
-  <span style="font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; font-weight: 600; letter-spacing: -0.02em; background: linear-gradient(90deg, #EE9A72, #E06C75, #67B26F); -webkit-background-clip: text; background-clip: text; color: transparent;">Full Stack AI Developer</span>
-</h1>
+![Full Stack AI Developer](https://raw.githubusercontent.com/elifarslancelik/elifarslancelik/main/gitspan.png)
 
 <p><strong>Languages</strong></p>
 <p align="left" style="display: flex; gap: 10px;">
