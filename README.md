@@ -1,9 +1,9 @@
 <p>
-  <img src="https://raw.githubusercontent.com/elifarslancelik/elifarslancelik/main/neural_network.gif" alt="Nöral Ağ Animasyonu" width="300px" />
+  <img src="https://raw.githubusercontent.com/elifarslancelik/elifarslancelik/main/gitspan.png" width="220px" alt="Full Stack AI Developer">
 </p>
 
 <p>
-  <img src="https://raw.githubusercontent.com/elifarslancelik/elifarslancelik/main/gitspan.png" width="220px" alt="Full Stack AI Developer">
+  <img src="https://raw.githubusercontent.com/elifarslancelik/elifarslancelik/main/neural_network.gif" alt="Nöral Ağ Animasyonu" width="300px" />
 </p>
 
 <p><strong>Languages</strong></p>
