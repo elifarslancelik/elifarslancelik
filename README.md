@@ -2,8 +2,8 @@
   <img src="https://raw.githubusercontent.com/elifarslancelik/elifarslancelik/main/typewriter_banner.gif" width="400px" alt="Full Stack AI Developer">
 </p>
 
-&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://bsky.app/profile/elifarslancelik.bsky.social" target="_blank">
-  <img src="https://cdn.simpleicons.org/bluesky/007AFF" alt="Bluesky" height="25"/>
+<span style="color: #007AFF;">Contact: BlueSky</span> <a href="https://bsky.app/profile/elifarslancelik.bsky.social" target="_blank">
+  <img src="https://cdn.simpleicons.org/bluesky/007AFF" alt="Bluesky" height="25" align="left"/>
 </a>
 
 <p align="left">
