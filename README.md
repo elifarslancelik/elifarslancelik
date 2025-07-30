@@ -1,4 +1,6 @@
-![Full Stack AI Developer](https://raw.githubusercontent.com/elifarslancelik/elifarslancelik/main/gitspan.png)
+<p>
+  <img src="https://raw.githubusercontent.com/elifarslancelik/elifarslancelik/main/gitspan.png" width="200px" alt="Full Stack AI Developer">
+</p>
 
 <p><strong>Languages</strong></p>
 <p align="left" style="display: flex; gap: 10px;">
