@@ -2,6 +2,10 @@
   <img src="https://raw.githubusercontent.com/elifarslancelik/elifarslancelik/main/gitspan.png" width="220px" alt="Full Stack AI Developer">
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/elifarslancelik/elifarslancelik/main/neural_network.gif" alt="Nöral Ağ Animasyonu" width="250px" />
+</p>
+
 <p><strong>Languages</strong></p>
 <p align="left" style="display: flex; gap: 10px;">
   <a href="https://www.swift.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg" alt="swift" width="38" height="38"/> </a>
