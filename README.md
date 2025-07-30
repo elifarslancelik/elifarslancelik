@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/elifarslancelik/elifarslancelik/main/typewriter_banner.gif" width="400px" alt="Full Stack AI Developer">
 </p>
 
-<span style="color: #007AFF;">Contact: BlueSky</span> <a href="https://bsky.app/profile/elifarslancelik.bsky.social" target="_blank">
+### **Contact: BlueSky** <a href="https://bsky.app/profile/elifarslancelik.bsky.social" target="_blank">
   <img src="https://cdn.simpleicons.org/bluesky/007AFF" alt="Bluesky" height="25" align="left"/>
 </a>
 
