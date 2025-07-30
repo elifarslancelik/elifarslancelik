@@ -4,13 +4,13 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 import os
 
-# Canvas boyutları
+# canvas size
 width, height = 800, 200
 
-# Koyu gri arka plan
-background_color = (30, 30, 30)
+# transparent background
+background_color = (0, 0, 0, 0)  # transparent
 
-# Gradient renkler
+# gradient colors
 colors = [
     (255, 165, 0),   # Turuncu
     (255, 20, 147),  # Pembe
@@ -19,19 +19,19 @@ colors = [
     (138, 43, 226)   # Mor
 ]
 
-# Metin
+# text
 text = "Full Stack AI Developer"
 
-# Font boyutu
+# font size
 font_size = 50
 
-# Animasyon için frame'ler oluştur
+# create frames for animation
 frames = []
-total_frames = len(text) * 3  # Her harf için 3 frame
+total_frames = len(text) * 3  # 3 frames per character
 
 for frame in range(total_frames):
-    # Yeni image oluştur
-    img = Image.new('RGB', (width, height), background_color)
+    # create new image (RGBA format with transparent background)
+    img = Image.new('RGBA', (width, height), background_color)
     draw = ImageDraw.Draw(img)
     
     try:
@@ -39,10 +39,10 @@ for frame in range(total_frames):
     except:
         font = ImageFont.load_default()
     
-    # Hangi karaktere kadar yazılacak
+    # how many characters to show
     chars_to_show = frame // 3
     
-    # Metni ortala
+    # center the text
     bbox = draw.textbbox((0, 0), text, font=font)
     text_width = bbox[2] - bbox[0]
     text_height = bbox[3] - bbox[1]
@@ -50,16 +50,16 @@ for frame in range(total_frames):
     x = (width - text_width) // 2
     y = (height - text_height) // 2
     
-    # Karakterleri tek tek yaz
+    # draw characters one by one
     current_x = x
     for i, char in enumerate(text):
         if i < chars_to_show:
-            # Gradient renk hesapla
+            # calculate gradient color
             color_index = (i / len(text)) * (len(colors) - 1)
             color1_idx = int(color_index)
             color2_idx = min(color1_idx + 1, len(colors) - 1)
             
-            # İki renk arasında interpolasyon
+            # interpolate between two colors
             t = color_index - color1_idx
             color1 = colors[color1_idx]
             color2 = colors[color2_idx]
@@ -68,49 +68,43 @@ for frame in range(total_frames):
             g = int(color1[1] * (1 - t) + color2[1] * t)
             b = int(color1[2] * (1 - t) + color2[2] * t)
             
-            # Karakteri çiz
-            draw.text((current_x, y), char, fill=(r, g, b), font=font)
+            # draw character
+            draw.text((current_x, y), char, fill=(r, g, b, 255), font=font)
             
-            # Sonraki karakter pozisyonu
+            # next character position
             char_bbox = draw.textbbox((current_x, y), char, font=font)
             char_width = char_bbox[2] - char_bbox[0]
-            current_x += char_width + 2  # Karakterler arası boşluk
+            current_x += char_width + 2  # space between characters
     
-    # Cursor efekti (son karakter için)
-    if chars_to_show < len(text):
-        cursor_x = current_x
-        cursor_y = y + text_height - 10
-        draw.line([(cursor_x, cursor_y), (cursor_x, cursor_y + 20)], fill=(255, 255, 255), width=3)
-    
-    # İnce gradient border ekle
+    # add gradient border
     border_width = 3
     for i in range(border_width):
-        # Üst border
+        # top border
         color_idx = i / border_width
         color1 = colors[0]
         color2 = colors[1]
         r = int(color1[0] * (1 - color_idx) + color2[0] * color_idx)
         g = int(color1[1] * (1 - color_idx) + color2[1] * color_idx)
         b = int(color1[2] * (1 - color_idx) + color2[2] * color_idx)
-        draw.line([(i, i), (width - i, i)], fill=(r, g, b), width=1)
+        draw.line([(i, i), (width - i, i)], fill=(r, g, b, 255), width=1)
         
-        # Alt border
+        # bottom border
         color1 = colors[3]
         color2 = colors[4]
         r = int(color1[0] * (1 - color_idx) + color2[0] * color_idx)
         g = int(color1[1] * (1 - color_idx) + color2[1] * color_idx)
         b = int(color1[2] * (1 - color_idx) + color2[2] * color_idx)
-        draw.line([(i, height - i), (width - i, height - i)], fill=(r, g, b), width=1)
+        draw.line([(i, height - i), (width - i, height - i)], fill=(r, g, b, 255), width=1)
     
     frames.append(img)
 
-# GIF olarak kaydet
+# save as gif
 frames[0].save(
     'typewriter_banner.gif',
     save_all=True,
     append_images=frames[1:],
-    duration=150,  # Her frame 150ms
+    duration=150,  # frame duration
     loop=0
 )
 
-print("Daktilo tarzı banner 'typewriter_banner.gif' olarak kaydedildi!") 
+print("Congratulations! 'typewriter_banner.gif' saved successfully!") 
