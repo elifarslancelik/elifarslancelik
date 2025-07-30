@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/elifarslancelik/elifarslancelik/main/typewriter_banner.gif" width="400px" alt="Full Stack AI Developer">
 </p>
 
-### **Contact: BlueSky** [🦋](https://bsky.app/profile/elifarslancelik.bsky.social)
+### **[Contact: BlueSky](https://bsky.app/profile/elifarslancelik.bsky.social)** [🦋](https://bsky.app/profile/elifarslancelik.bsky.social)
 
 <p align="left">
   <img src="https://raw.githubusercontent.com/elifarslancelik/elifarslancelik/main/runbird.gif" alt="Koşan Kuş Animasyonu" width="300px" />
