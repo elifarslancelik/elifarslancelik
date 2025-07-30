@@ -4,6 +4,8 @@
 
 ### **[Contact: BlueSky](https://bsky.app/profile/elifarslancelik.bsky.social)** [🦋](https://bsky.app/profile/elifarslancelik.bsky.social)
 
+### **[DarkDuck (Safari Extension)](https://apps.apple.com/tr/app/darkduck/id6746661187?mt=12)** [🦆](https://apps.apple.com/tr/app/darkduck/id6746661187?mt=12)
+
 <p align="left">
   <img src="https://raw.githubusercontent.com/elifarslancelik/elifarslancelik/main/runbird.gif" alt="Koşan Kuş Animasyonu" width="300px" />
 </p>
