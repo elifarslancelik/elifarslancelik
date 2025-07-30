@@ -1,4 +1,4 @@
-##Full Stack AI Developer
+**Full Stack AI Developer**
 
 <p><strong>Languages</strong></p>
 <p align="left" style="display: flex; gap: 10px;">
