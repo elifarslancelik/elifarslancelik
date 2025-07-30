@@ -2,9 +2,11 @@
   <img src="https://raw.githubusercontent.com/elifarslancelik/elifarslancelik/main/typewriter_banner.gif" width="400px" alt="Full Stack AI Developer">
 </p>
 
-<a href="https://bsky.app/profile/elifarslancelik.bsky.social" target="_blank">
-  <img src="https://cdn.simpleicons.org/bluesky/007AFF" alt="Bluesky" height="25"/>
-</a>
+<p align="left">
+  <a href="https://bsky.app/profile/elifarslancelik.bsky.social" target="_blank">
+    <img src="https://cdn.simpleicons.org/bluesky/007AFF" alt="Bluesky" height="25"/>
+  </a>
+</p>
 
 <p align="left">
   <img src="https://raw.githubusercontent.com/elifarslancelik/elifarslancelik/main/runbird.gif" alt="Koşan Kuş Animasyonu" width="300px" />
