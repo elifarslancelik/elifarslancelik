@@ -6,6 +6,10 @@
   <img src="https://raw.githubusercontent.com/elifarslancelik/elifarslancelik/main/neural_network.gif" alt="Nöral Ağ Animasyonu" width="300px" />
 </p>
 
+<p align="left">
+  <img src="https://raw.githubusercontent.com/elifarslancelik/elifarslancelik/main/runbird.gif" alt="Koşan Kuş Animasyonu" width="300px" />
+</p>
+
 <p><strong>Languages</strong></p>
 <p align="left" style="display: flex; gap: 10px;">
   <a href="https://www.swift.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg" alt="swift" width="38" height="38"/> </a>
